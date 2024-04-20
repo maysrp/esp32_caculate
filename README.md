@@ -1,4 +1,4 @@
-![image](https://github.com/maysrp/esp32_caculate/assets/3799311/e14342f0-60db-42d4-86cb-5d5f60cb45ec)# esp32_caculate
+# esp32_caculate
 ESP32 caculate plot  ST7789
 
 
