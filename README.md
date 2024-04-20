@@ -1,8 +1,7 @@
 # esp32_caculate
 ESP32 caculate plot  ST7789
 
-![1](/img/1.jpg)
-![2](/img/2.jpg)
+![1](/img/1.jpg =600x)
 本项目来自于[MPY-CONSOLE](https://github.com/jd3096-mpy/MPY-CONSOLE) 在此基础上，改用了便宜的esp32s2 lolin mini，使用双st7789屏幕,一个用于显示micropython repl 一个用于绘图。键盘输入使用CH9350模块，直接使用USB无线键盘即可。
 
 添加了模拟shell环境[micropython-shell](https://github.com/octopusengine/micropython-shell)，及绘图功能[micropython-nano-gui](https://github.com/peterhinch/micropython-nano-gui)，固件添加了ulab，可用使用numpy的基础计算功能，可用算得上是一个计算器了。
