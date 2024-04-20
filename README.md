@@ -22,25 +22,11 @@ ESP32 caculate plot  ST7789
 |7|rst|
 |12|bl|
 |cs  15|tf cs|
-
-
-pdc = Pin(9, Pin.OUT, value=1)  
-pcs = Pin(11, Pin.OUT, value=1)
-prst = Pin(7, Pin.OUT, value=1)
-12 bl
-gc.collect()  
-
-spi =SPI(2,baudrate=40000000, sck=Pin(3), mosi=Pin(5), miso=Pin(14))
-
-TF卡CS 15
-
-self.port=UART(1,baudrate=115200,tx=18,rx=16)
-
-
-spi=SPI(1, baudrate=40000000,sck=Pin(1), mosi=Pin(2),miso=Pin(13))
-        cs=Pin(8, Pin.OUT),
-        dc=Pin(6, Pin.OUT),
-        backlight=Pin(10, Pin.OUT),
-        reset=Pin(4, Pin.OUT),
-
-|||
+|SPI_1|LCD_1|
+|sck  1|SCK|
+|mosi  2|SDA|
+|miso  13||
+|cs  8|cs lcd1|
+|6|dc|
+|4|rst|
+|10|bl|
