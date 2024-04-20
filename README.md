@@ -33,6 +33,35 @@ ESP32 caculate plot  ST7789
 |4|rst|
 |10|bl|
 
+## 方法
+### con 对象
++ help(con)查看全部con下的设置
+#### 字体
++ con.small()  
++ con.big()
+#### 主题
++ fcon.windows()
++ con.ubuntu()
++ con.green()
++ con.default()
+
+### shell环境
+shell() 进入
+#### 命令
++ cat boot.py 2 10 #打印boot.py 每页10行 的第2页，直接 cat boot.py 显示第一页 默认一页14行
++ ls
++ edit a.py 行编辑器 相对于原来的编辑器多了个k参数
++ cd 
++ pwd
++ 等请查看
+
+### 绘图
+a=HT(lambda x:x**2+1)  
+y=x**2+1
+
+a=HT(lambda x:x**2+1,a=-20,b=20,step=0.1)
+绘制[-20,20]区间内该函数的图像，每0.1步长取值（越小越慢曲线越光滑）
+
 ## 注意
 + CH9350 为5V工作电压，且若接有限键盘请在5v上独立供电，目前仅适用于2.4GHZ无线键盘
 + CH9350 模式1234下5上 如图
