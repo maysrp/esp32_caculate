@@ -7,6 +7,21 @@ ESP32 caculate plot  ST7789
 添加了模拟shell环境[micropython-shell](https://github.com/octopusengine/micropython-shell)，及绘图功能[micropython-nano-gui](https://github.com/peterhinch/micropython-nano-gui)，固件添加了ulab，可用使用numpy的基础计算功能，可用算得上是一个计算器了。
 
 可以用面包板和杜邦线直接拼凑一个，也可以嘉立创PCB制作，免于排线。
+## 接线
+|ESP32S2|drivers|
+|-|-|
+|UART|ch9350|
+|18|rx|
+|16|tx|
+|SPI_2|LCD_2|
+|sck  3|SCK|
+|mosi  5|SDA|
+|miso  14||
+|cs  11|cs lcd2|
+|9|dc|
+|7|rst|
+|12|bl|
+|cs  15|tf cs|
 
 
 pdc = Pin(9, Pin.OUT, value=1)  
