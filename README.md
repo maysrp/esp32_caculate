@@ -12,10 +12,10 @@ ESP32 caculate plot  ST7789
 ## 接线
 |ESP32S2|drivers|
 |-|-|
-|UART|ch9350|
+|*UART*|*ch9350*|
 |18|rx|
 |16|tx|
-|SPI_2|LCD_2|
+|*SPI_2*|*LCD_2*|
 |sck  3|SCK|
 |mosi  5|SDA|
 |miso  14||
@@ -24,7 +24,7 @@ ESP32 caculate plot  ST7789
 |7|rst|
 |12|bl|
 |cs  15|tf cs|
-|SPI_1|LCD_1|
+|*SPI_1*|*LCD_1*|
 |sck  1|SCK|
 |mosi  2|SDA|
 |miso  13||
